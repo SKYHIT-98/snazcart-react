@@ -1,0 +1,11 @@
+GET http://localhost:3005/categories
+
+###
+
+POST http://localhost:3005/categories
+Content-Type: application/json
+
+{
+  "category": "More",
+  "refer": "/More"
+}
